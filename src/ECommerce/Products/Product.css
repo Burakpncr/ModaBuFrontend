@@ -1,0 +1,66 @@
+.layout-container {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  min-height: 100vh !important;
+  gap: 16px !important;
+  padding: 16px !important;
+  box-sizing: border-box !important;
+}
+
+.left-column {
+  width: 100% !important;
+  min-height: 300px !important;
+  background-color: white !important;
+}
+
+.right-content {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+  width: 100% !important;
+}
+
+.top-box,
+.middle-box {
+  height: 80px !important;
+  background-color: white !important;
+}
+
+.bottom-box {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 16px !important;
+  padding: 16px !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  box-sizing: border-box !important;
+}
+
+/* İçerideki kart div'lerini hedef alıyoruz */
+.bottom-box > div {
+  width: calc(33.333% - 16px) !important;
+  min-width: 200px !important;
+  box-sizing: border-box !important;
+}
+
+/* Responsive: küçük ekranlarda tek sütun */
+@media (max-width: 768px) {
+  .bottom-box > div {
+    width: 100% !important;
+  }
+}
+/* Responsive */
+@media (min-width: 1024px) {
+  .layout-container {
+    flex-direction: row !important;
+  }
+
+  .left-column {
+    width: 20% !important;
+  }
+
+  .right-content {
+    width: 80% !important;
+  }
+}

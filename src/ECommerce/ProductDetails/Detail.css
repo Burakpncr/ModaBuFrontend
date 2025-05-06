@@ -1,0 +1,32 @@
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    align-items: flex-start;
+  }
+  
+  .product-image img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-info {
+    flex: 1;
+  }
+  
+  .product-info h2 {
+    margin-top: 0;
+    font-size: 28px;
+  }
+  .product-note {
+    color: #6c757d; /* Gri ton */
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+  

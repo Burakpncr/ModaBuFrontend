@@ -1,0 +1,62 @@
+.category-bar {
+    width: 200px;
+  }
+  
+  
+  .category-bar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .category-bar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-bar li {
+    margin-bottom: 10px;
+  }
+  
+  .category-bar button {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 6px 12px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .filter-box {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .filter-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .filter-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .filter-option input {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  

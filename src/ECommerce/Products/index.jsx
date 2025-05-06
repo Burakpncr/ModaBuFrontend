@@ -121,7 +121,7 @@ function Products() {
             <Card sx={{ maxWidth: 255 }} key={product.productId}>
             <CardMedia
               sx={{ height: 140 }}
-              image={"/assets/img/"+product.imageUrl}
+              image={"../../../public/assets/img/"+product.imageUrl}
               title="green iguana"
             />
             <CardContent>

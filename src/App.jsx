@@ -18,7 +18,7 @@ import PaymentForm from './ECommerce/PayService/index'
 import Orders from './ECommerce/PayService/Orders'
 import Success from './ECommerce/PayService/Success'
 import './App.css'
-import "../assets/css/main.css" 
+import "../public/assets/css/main.css" 
 import { Routes, Route, Navigate } from 'react-router-dom'
 function App() {
   return (

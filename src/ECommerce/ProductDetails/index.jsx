@@ -57,7 +57,7 @@ function ProductDetails() {
     <div className="container">
           <div className="product-image">
             <img
-              src={"/assets/img/"+detail.imageUrl}
+              src={"../../../public/assets/img/"+detail.imageUrl}
               alt={detail.productName}
             />
           </div>

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import "./About.css"
+
 function About() {
   return (
     <section id="about" class="about section light-background">
@@ -14,7 +15,7 @@ function About() {
       <div class="row gy-3">
 
         <div class="col-lg-6" >
-          <img src="assets/img/ChatGPT Image 16 Nis 2025 11_26_37.png" alt="" class="img-fluid" />
+          <img src="../../../public/assets/img/ChatGPT Image 16 Nis 2025 11_12_33.png" class="img-fluid" />
         </div>
 
         <div class="col-lg-6 d-flex flex-column justify-content-center" >
